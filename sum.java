@@ -8,7 +8,7 @@ public class sum {
         int num2=sc.nextInt();
         int sum=0;
         sum=num1+num2;
-        System.out.println("sum="+sum);
+        System.out.println(" the sum is ="+sum);
 
 
     }
