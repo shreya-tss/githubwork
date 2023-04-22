@@ -1,9 +1,11 @@
-public class multiply{
-public static void main (String args[]){
-int a=10;
-int b=5;
-int mul;
-mul=a*b;
-System.out.println("the result is="+mul);
+public class Pattern {
+    public static void main (String args[]){
+    for(int i=1;i<=5;i++)
+    {
+      for(int j=1;j<=i;j++){
+        System.out.print("*\t");
+    }
+    System.out.println();
+    }
 }
 }
